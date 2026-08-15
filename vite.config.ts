@@ -17,7 +17,7 @@ export default defineConfig({
 			// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 			adapter: adapter(),
 			paths: {
-				base: import.meta.env.BASE_URL as ""
+				base: (import.meta.env?.BASE_URL ?? "") as ""
 			}
 		})
 	]
