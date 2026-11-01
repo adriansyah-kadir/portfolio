@@ -63,9 +63,9 @@
 {#snippet Header()}
   <section class="grid sm:grid-cols-[auto_1fr] tems-center">
     <img
-      class="rounded-full w-26 row-span-999 sm:mr-5 sm:mb-0 mb-5"
+      class="rounded-full size-26 object-cover row-span-999 sm:mr-5 sm:mb-0 mb-5"
       alt="Profile"
-      src="https://avatars.githubusercontent.com/u/99591033?s=400&u=43a6cf3eff34fe6594d55dd9f3931f91d3f8b5d4&v=4"
+      src="pas-foto.jpg"
     />
     <h2 class="text-2xl font-bold text-primary">Adriansyah Kadir</h2>
     <List class="text-lg font-bold" items={roles}>
